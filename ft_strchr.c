@@ -6,11 +6,11 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/25 20:31:44 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/06/26 00:15:01 by root             ###   ########.fr       */
+/*   Updated: 2024/06/26 00:35:31 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 char	*ft_strchr(const char *str, int c)
 {
@@ -31,7 +31,7 @@ char	*ft_strchr(const char *str, int c)
 	return (NULL);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char *j = "Hola mundo";
 	char i = 'm';
@@ -46,4 +46,4 @@ int	main(void)
 	else
 		printf("EL carácter no se ha encontrado.\n");
 	return (0);
-}
+}*/
