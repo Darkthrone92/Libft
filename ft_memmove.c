@@ -1,4 +1,16 @@
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/06/25 15:14:03 by xbatiste          #+#    #+#             */
+/*   Updated: 2024/06/25 15:40:12 by xbatiste         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+//#include <stdio.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
@@ -29,7 +41,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	return (dest);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char	src[] = "abcdefghijklmnopqrstuvwxyz";
 	char	dest[50] = "1234567891011121314151617";
@@ -44,4 +56,4 @@ int	main(void)
     	printf("Origen: %s\n", src);
     	printf("Destino: %s\n", dest);
 	return 0;
-}
+}*/
