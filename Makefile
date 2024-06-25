@@ -1,5 +1,5 @@
 NAME = libft.a
-SRC = ./srcs/ft_putchar.c ./srcs/ft_putstr.c ./srcs/ft_strcmp.c ./srcs/ft_strlen.c ./srcs/ft_swap.c
+SRC = ./ft_isalpha.c ./ft_isprint.c  ./ft_memset.c ./ft_strlen.c ./ft_bzero.c    ./ft_isascii.c  ./ft_memcpy.c   ./ft_strlcat.c ./ft_isalnum.c  ./ft_isdigit.c  ./ft_memmove.c  ./ft_strlcpy.c
 HD = ./includes/
 OBJ = $(SRC:.c=.o)
 AR = ar rcs

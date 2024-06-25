@@ -1,33 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/21 18:49:21 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/06/25 18:46:55 by xbatiste         ###   ########.fr       */
+/*   Created: 2024/06/25 20:19:36 by xbatiste          #+#    #+#             */
+/*   Updated: 2024/06/25 20:26:59 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
 
-size_t	ft_strlen(const char *s)
+int	ft_tolower(int c)
 {
-	size_t	i;
-
-	i = 0;
-	while (s[i] != '\0')
+	if (c >= 65 && c <= 90)
 	{
-		i++;
+		c = c + 32;
 	}
-	return (i);
+	return (c);
 }
 
-/*int	main(int argc, char **argv)
+/*int	main(void)
 {
-	printf("%zu\n", ft_strlen("hola"));
-	 if (argc > 1)
-		printf("%zu\n", ft_strlen(argv[1]));
-	return 0;
+	int	i;
+
+	i = 'A';
+	printf("Antes de función: %c\n", i);
+	i = ft_tolower(i);
+	printf("Después de función: %c\n", i);
+	return (0);
 }*/

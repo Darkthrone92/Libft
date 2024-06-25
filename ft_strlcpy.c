@@ -6,11 +6,11 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/25 15:53:47 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/06/25 16:44:23 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/06/25 17:05:51 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
@@ -36,7 +36,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	return (i);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char	d[50];
 	char	*s;
@@ -53,4 +53,4 @@ int	main(void)
     	printf("Src: %s\n", s);
     	printf("Dst: %s\n", d);
 	return 0;
-}
+}*/
