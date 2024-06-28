@@ -6,19 +6,19 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 20:43:50 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/06/26 21:30:59 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/06/28 10:57:58 by xavier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	const unsigned char	*src;
-	unsigned char		value;
-	size_t				i;
+	unsigned char	*src;
+	unsigned char	value;
+	size_t			i;
 
-	src = (const unsigned char *)s;
+	src = (unsigned char *)s;
 	value = (unsigned char)c;
 	i = 0;
 	while (i < n)
@@ -32,7 +32,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	return (NULL);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char str[] = "Lorem ipsum dolor sit amet";
 	char val = 'd';
@@ -45,4 +45,4 @@ int	main(void)
 	else
 		printf("El valor %c no se encontró en %zu bytes\n", val, bytes);
 	return (0);
-}
+}*/
