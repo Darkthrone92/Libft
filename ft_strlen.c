@@ -6,10 +6,10 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/21 18:49:21 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/06/25 18:46:55 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/07/01 19:07:14 by xavier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+#include <stddef.h>
 //#include <stdio.h>
 
 size_t	ft_strlen(const char *s)
