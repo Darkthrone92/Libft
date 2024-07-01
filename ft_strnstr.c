@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
@@ -9,7 +9,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	j = 0;
 	if (*needle == '\0')
 	{
-		return((char *)haystack);
+		return ((char *) haystack);
 	}
 	while (i < len && haystack[i] != '\0')
 	{
@@ -17,16 +17,16 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 		{
 			if (needle[j + 1] == '\0')
 			{
-				return (char *)&haystack[i];
+				return ((char *) &haystack[i]);
 			}
-		j++;
+			j++;
 		}
-	i++;
+		i++;
 	}
 	return (NULL);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	const char *h1 = "Hola mundo";
 	const char *n1 = "mundo";
@@ -46,5 +46,4 @@ int	main(void)
 		printf("Test 2: Se ha encontrado %s en %s: %s\n", n2, h2, result);
 	else
 		printf("Test 2: No se ha encontrado %s en %s\n", n2, h2);
-
-}
+}*/
