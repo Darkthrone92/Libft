@@ -1,6 +1,6 @@
 #include "libft.h"
 #include <stdlib.h>
-#include <stdio.h>
+// #include <stdio.h>
 
 char	*ft_strdup(const char *s)
 {
@@ -22,7 +22,7 @@ char	*ft_strdup(const char *s)
 	return (dest);
 }
 
-int	main(void)
+/*int	main(void)
 {
     char *original = "Hello, world!";
     char *duplicate = ft_strdup(original);
@@ -39,4 +39,4 @@ int	main(void)
     }
 
     return (0);
-}
+}*/
