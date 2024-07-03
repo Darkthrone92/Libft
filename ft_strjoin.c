@@ -1,5 +1,6 @@
 #include "libft.h"
 #include <stdlib.h>
+//#include <stdio.h>
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
@@ -27,3 +28,17 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	final_str[i] = '\0';
 	return (final_str);
 }
+
+/*int	main(void)
+{
+	char	*str1 = "Hola";
+	char	*str2 = "mundo!";
+	char	*result;
+
+	result = ft_strjoin(str1, str2);
+	printf("The first sentence is: %s.\n", str1);
+	printf("THe second sentence is: %s.\n", str2);
+	printf("The result after function is: %s.\n", result);
+	free(result);
+	return (0);
+}*/
