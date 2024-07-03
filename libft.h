@@ -6,7 +6,7 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/21 15:21:27 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/07/02 15:07:27 by root             ###   ########.fr       */
+/*   Updated: 2024/07/03 15:30:55 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,5 +49,6 @@ void	*ft_calloc(size_t nmemb, size_t size);
 // PART II
 
 char	*ft_substr(char const *s, unsigned int start, size_t len);
+char    *ft_strjoin(char const *s1, char const *s2);
 
 #endif
