@@ -6,13 +6,13 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/05 11:19:09 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/07/05 11:33:32 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/07/05 12:43:46 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include "libft.h"
-#include <stdio.h>
+//#include <stdio.h>
 
 static	int trim(const char *set, char c);
 static	char *new_str(const char *s1, size_t start, size_t len);
@@ -69,7 +69,7 @@ static int	trim(const char *set, char c)
 	return (0);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char	*str1 = "Hellozxyzxyzxyzy world!";
 	char	*strset = "zxy";
@@ -81,4 +81,4 @@ int	main(void)
 	printf("Result: %s.\n", result);
 	free(result);
 	return (0);
-}
+}*/
