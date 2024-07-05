@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/05 11:19:09 by xbatiste          #+#    #+#             */
+/*   Updated: 2024/07/05 11:33:32 by xbatiste         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdlib.h>
 #include "libft.h"
 #include <stdio.h>
@@ -8,11 +20,11 @@ static	char *new_str(const char *s1, size_t start, size_t len);
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	char	*trimstr;
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 
 	if (s1 == NULL || set == NULL)
-		return (NULL);	
+		return (NULL);
 	i = 0;
 	j = ft_strlen(s1);
 	while (s1[i] && trim(set, s1[i]))
@@ -40,7 +52,7 @@ static char	*new_str(const char *s1, size_t start, size_t len)
 		i++;
 	}
 	str[i] = '\0';
-	return(str);
+	return (str);
 }
 
 static int	trim(const char *set, char c)

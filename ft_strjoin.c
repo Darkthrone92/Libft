@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/05 11:28:20 by xbatiste          #+#    #+#             */
+/*   Updated: 2024/07/05 11:31:28 by xbatiste         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 #include <stdlib.h>
 //#include <stdio.h>
@@ -5,15 +17,15 @@
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*final_str;
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 
 	i = 0;
 	j = 0;
-	final_str = (char *)malloc((ft_strlen(s1) + ft_strlen(s2) + 1) * 
-		sizeof(char));
+	final_str = (char *)malloc((ft_strlen(s1) + ft_strlen(s2) + 1)
+			* sizeof(char));
 	if (final_str == NULL)
-		return (NULL);	
+		return (NULL);
 	while (s1[i] != '\0')
 	{
 		final_str[i] = s1[i];

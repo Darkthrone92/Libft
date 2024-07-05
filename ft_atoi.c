@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/05 11:26:21 by xbatiste          #+#    #+#             */
+/*   Updated: 2024/07/05 11:27:51 by xbatiste         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 //#include <stdio.h>
 
 int	ft_atoi(const char *nptr)
@@ -7,9 +19,9 @@ int	ft_atoi(const char *nptr)
 
 	result = 0;
 	sign = 1;
-	while (*nptr == ' ' || *nptr == '\t' || *nptr == '\n' ||
-		*nptr == '\v' || *nptr == '\f' || *nptr == '\r') 
-        nptr++;
+	while (*nptr == ' ' || *nptr == '\t' || *nptr == '\n'
+		|| *nptr == '\v' || *nptr == '\f' || *nptr == '\r')
+		nptr++;
 	if (*nptr == '-')
 	{
 		sign = -1;
@@ -22,7 +34,7 @@ int	ft_atoi(const char *nptr)
 		result = result * 10 + (*nptr - '0');
 		nptr++;
 	}
-	return sign * result;
+	return (sign * result);
 }
 
 /*int	main(void) 
