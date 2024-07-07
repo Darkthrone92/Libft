@@ -3,7 +3,7 @@
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	unsigned int	i;
-	char	*result;
+	char			*result;
 
 	if (s == NULL || f == NULL)
 		return (NULL);

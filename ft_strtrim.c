@@ -6,7 +6,7 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/05 11:19:09 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/07/05 12:43:46 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/07/07 20:37:03 by xavier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 #include "libft.h"
 //#include <stdio.h>
 
-static	int trim(const char *set, char c);
-static	char *new_str(const char *s1, size_t start, size_t len);
+static int	trim(const char *set, char c);
+static char	*new_str(const char *s1, size_t start, size_t len);
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
