@@ -6,7 +6,7 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/21 15:21:27 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/07/06 12:59:18 by root             ###   ########.fr       */
+/*   Updated: 2024/07/08 20:11:20 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
+# include <stddef.h>
 
 // PART I
 

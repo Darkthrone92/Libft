@@ -6,11 +6,11 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/21 18:49:21 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/07/01 19:07:14 by xavier           ###   ########.fr       */
+/*   Updated: 2024/07/08 19:26:38 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stddef.h>
-//#include <stdio.h>
+
+#include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {

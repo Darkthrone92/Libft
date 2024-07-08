@@ -6,11 +6,11 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/25 15:14:03 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/06/25 15:40:12 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/07/08 20:40:23 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
