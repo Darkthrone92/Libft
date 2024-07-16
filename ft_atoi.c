@@ -6,11 +6,11 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/05 11:26:21 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/07/05 11:27:51 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/07/16 16:34:21 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include "libft.h"
 
 int	ft_atoi(const char *nptr)
 {

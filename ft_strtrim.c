@@ -6,13 +6,11 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/05 11:19:09 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/07/07 20:37:03 by xavier           ###   ########.fr       */
+/*   Updated: 2024/07/16 16:42:04 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
-//#include <stdio.h>
 
 static int	trim(const char *set, char c);
 static char	*new_str(const char *s1, size_t start, size_t len);

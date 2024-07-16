@@ -6,13 +6,11 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/05 11:18:51 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/07/05 11:18:53 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/07/16 16:38:27 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-// #include <stdio.h>
 
 char	*ft_strdup(const char *s)
 {

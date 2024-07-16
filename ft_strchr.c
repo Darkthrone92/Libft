@@ -6,11 +6,11 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/25 20:31:44 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/06/26 18:23:41 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/07/15 18:04:55 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include "libft.h" 
 
 char	*ft_strchr(const char *s, int c)
 {
