@@ -6,11 +6,11 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 17:59:09 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/07/16 16:41:01 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/07/16 18:01:40 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libfft.h"
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {
@@ -21,13 +21,13 @@ char	*ft_strrchr(const char *s, int c)
 	last_char = NULL;
 	while (s[i] != '\0')
 	{
-		if (s[i] == (char)c)
+		if (s[i] == (unsigned char)c)
 		{
 			last_char = (char *)&s[i];
 		}
 		i++;
 	}
-	if (c == '\0')
+	if ((unsigned char)c == '\0')
 	{
 		return ((char *)&s[i]);
 	}

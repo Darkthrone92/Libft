@@ -6,7 +6,7 @@
 /*   By: xbatiste <xbatiste@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/08 18:05:01 by xbatiste          #+#    #+#             */
-/*   Updated: 2024/07/08 18:06:12 by xbatiste         ###   ########.fr       */
+/*   Updated: 2024/07/16 17:10:03 by xbatiste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_putstr_fd(char *s, int fd)
 	i = 0;
 	while (s[i] != '\0')
 	{
-		write(fd, &[s]i, 1);
+		write(fd, &s[i], 1);
 		i++;
 	}
 }
